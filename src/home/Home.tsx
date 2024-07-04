@@ -6,25 +6,26 @@ const Home = () => {
       <Container maxWidth={false}>
 
 <Stack
-  direction="column"
+  direction="row"
   justifyContent="center"
   margin-left="1000px"
   spacing={2}
+  sx={{alignItems: "center"}}
 >
 
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345, marginTop:20 }}>
         
 
       <CardActionArea>
         <CardMedia
           component="img"
           height="140"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiLpcKn1t0jadN7ygT2eWzmCnnrKiJRZYiLQ&s"
+          image="https://img.freepik.com/foto-gratis/vista-edificio-arquitectura-estilo-dibujos-animados_23-2151154831.jpg?w=740&t=st=1720122765~exp=1720123365~hmac=abdb65677228d8d312c314614059e9dc2e4fe94ef5792e96422ea550e4a60965https://img.freepik.com/foto-gratis/vista-edificio-arquitectura-estilo-dibujos-animados_23-2151154831.jpg?w=740&t=st=1720122765~exp=1720123365~hmac=abdb65677228d8d312c314614059e9dc2e4fe94ef5792e96422ea550e4a60965"
           alt="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            Bienvenido!
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -33,7 +34,7 @@ const Home = () => {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" variant= "contained" color="primary">
+        <Button size="small" variant= "contained" color="primary" sx={{marginLeft:"35%"}}>
           Siguiente
         </Button>
       </CardActions>
